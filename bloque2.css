@@ -69,13 +69,15 @@ body{
     width: 100%;
     height: 60%;
     margin:auto;
+
 }
 
 .bloque2_info-opinion {
-    width: 50%;
+    width: 45%;
     margin:auto 0;
     height: auto;
-    margin: auto;
+    margin: auto 0;
+
 }
 
 .bloque2_info-usuario p{
