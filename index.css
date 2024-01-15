@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+
+}
+
+.bloque-1{
+    background-color: black;
+    background-image: url("./img/postresRecortada.jpg");
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio cabecera*/
+.cabecera{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.cabecera-link{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecera-img{
+    object-fit: cover; 
+    height: 100%;
+    width: 100px;
+}
+
+.navegacion{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navegacion a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    pointer-events: all;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+
+.banner{
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 10%;
+}
+
+.banner h1{
+    font-size: 100px;
+}
+.banner h2{
+    font-size: 30px;
+}
+.banner img{
+    width: 100px;
+}
