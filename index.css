@@ -42,7 +42,7 @@
 .header-img{
     object-fit: cover; 
     height: 100%;
-    width: 100px;
+    width: 150px;
 }
 
 .navegacion{
@@ -57,11 +57,10 @@
 .navegacion a{
     text-decoration: none;
     color: #ffffff;
-    font-weight: 700;
     pointer-events: all;
     font-size: 28px;
     font-weight: 600;
-    padding: 14px;
+    margin-right: 5%;
 }
 
 .banner{
@@ -85,44 +84,89 @@
     width: 10rem;
 }
 
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 700px) {
+    .banner h1{
+        font-size: 5rem;
+    }
+    .banner h2{
+        font-size: 1.1rem;
+    }
+    .banner img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 485px) {
     .contenido{
         width: 100%;
     }
-    .banner{
+    .header{
         width: 100%;
-    }
-    .navegacion a{
-        padding: 10px;
+        height: 10vh;
+    } 
+    .header-img{
+        height: 100%;
+        width: 100px;
     }
     .banner h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .banner h2{
         font-size: 1rem;
     }
     .banner img{
-        width: 8rem;
+        width: 150px;
     }
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 320px) {
+    .header{
+        width: 100%;
+        height: 10vh;
+    } 
+    .header-img{
+        width: 50px;
+        transform: scale(1.5);
+        transform-origin: center;
+    }
     .navegacion a{
-        padding: 9px;
+        font-weight: 700;
+        font-size: 25px;
+        margin-right: 5%;
     }
     .banner h1{
-        font-size: 3.7rem;
+        font-size: 2.5rem;
     }
     .banner h2{
         font-size: 0.7rem;
     }
     .banner img{
-        width: 8rem;
+        width: 120px;
     }
 }
-/*
-@media screen and (max-width: 397px) {
-    .bloque-1{
-        height: 100vh;
+
+@media screen and (max-width: 290px) {
+    .header{
+        width: 100%;
+        height: 10vh;
+    } 
+    .header-img{
+        width: 50px;
+        transform: scale(1);
+        transform-origin: center;
+    }
+    .navegacion a{
+        font-weight: 700;
+        font-size: 20px;
+        margin-right: 5%;
+    }
+    .banner h1{
+        font-size: 2.5rem;
+    }
+    .banner h2{
+        font-size: 0.7rem;
+    }
+    .banner img{
+        width: 120px;
     }
 }
-*/
