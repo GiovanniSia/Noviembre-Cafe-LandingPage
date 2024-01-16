@@ -7,10 +7,20 @@
     font-family: 'Nunito', sans-serif;
 }
 
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}
 
 .bloque-1 {
     background-color: black;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("./img/postres.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/postres.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -203,29 +213,4 @@
 
 .custom-pulse {
     animation: custom-pulse 2s;
-}
-
-.footer {
-    width: 100%;
-    height: 12%;
-    background-color: #000;
-    display: flex;
-    justify-content: flex-start;
-    padding: 11px;
-    align-items: center;
-}
-
-.footer button {
-    color: #fff;
-    margin: auto 0;
-    background-color: transparent;
-    border: none;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 1%;
-    text-align: center;
-}
-
-.footer button:hover {
-    background-color: #1a1a1a;
 }

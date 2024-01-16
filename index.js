@@ -1,16 +1,3 @@
-/*window.addEventListener('scroll',() => {
-    let img = document.getElementById('card1-img');
-    let posUsuarioScroll = (img.getBoundingClientRect().top);
-    let tamanioPantalla = (window.innerHeight/3.5);
-    if(tamanioPantalla < posUsuarioScroll && posUsuarioScroll < tamanioPantalla){
-        img.classList.add('animate__animated')
-        img.classList.add('animate__zoomIn')
-        
-    }
-    //class="animate__animated animate__zoomIn"
-})
-*/
-
 // Selecciona la imagen que quieres animar
 let img = document.getElementById('card1-img');
 let imgs = document.querySelectorAll('img');
@@ -28,7 +15,7 @@ let observer = new IntersectionObserver((entries, observer) => {
             observer.unobserve(entry.target);
         }
     });
-}, { threshold: 0.5 }); // El umbral define qué porcentaje del elemento debe ser visible para considerarlo "intersecting"
+}, { threshold: 0.1 }); // El umbral define qué porcentaje del elemento debe ser visible para considerarlo "intersecting"
 
 // Empieza a observar la imagen
 imgs.forEach(i => observer.observe(i))

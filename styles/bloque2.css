@@ -1,20 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-}
-
 .bloque2 {
     color: #fff;
     display: flex;
@@ -75,7 +58,7 @@ body{
 .bloque2_info-opinion {
     width: 45%;
     margin:auto 0;
-    height: auto;
+    height: 50%;
     margin: auto 0;
 
 }
@@ -96,9 +79,9 @@ body{
 .bloque2_info-texto p{
     font-size: 17px;
     font-weight: bold;
-    text-align: justify;
     word-wrap: break-word;
     text-justify: inter-word;
+    text-wrap: pretty;
 }
 
 .bloque2_info-usuario{
@@ -125,17 +108,23 @@ body{
         flex-direction: column;
         flex-wrap: nowrap;
         height: auto;
-      }
+    }
     
     .bloque2_img-container{
         width: 100%;
         height: auto;
+    }
+    .bloque2_img-container img{
+        width: 100%;
     }
     .bloque2_info-opiniones-container{
           flex-wrap: nowrap;
           flex-direction: column;
           margin: 20px 0;
           height: auto;
+    }
+    .bloque2_info-container h1{
+        font-size: 38px;
     }
     .bloque2_info-opinion{
         width: 100%;
