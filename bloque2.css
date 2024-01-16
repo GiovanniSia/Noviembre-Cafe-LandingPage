@@ -120,7 +120,7 @@ body{
     font-weight: bold;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1060px) {
     .bloque2 {
         flex-direction: column;
         flex-wrap: nowrap;
@@ -135,6 +135,7 @@ body{
           flex-wrap: nowrap;
           flex-direction: column;
           margin: 20px 0;
+          height: auto;
     }
     .bloque2_info-opinion{
         width: 100%;
