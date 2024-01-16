@@ -18,10 +18,8 @@
     background-size: cover;
     width: 90%;
     height: 90%;
-/*
-    width: 289px;
-    height: 362px;*/
     margin:auto;
+    object-fit: cover;
 }
 
 .bloque2_info-container{
