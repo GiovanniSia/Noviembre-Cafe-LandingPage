@@ -5,6 +5,7 @@
     width: 85%;
     height: 100%;
     margin: auto;
+    max-width: 1380px;
 }
 
 .bloque2_img-container{
@@ -34,8 +35,7 @@
 }
 
 .bloque2_info-container h1{
-    font-size: 42px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     width: 100%;
     height: auto;
@@ -56,34 +56,43 @@
 .bloque2_info-opinion {
     width: 45%;
     margin:auto 0;
-    height: 50%;
     margin: auto 0;
-
 }
 
 .bloque2_info-usuario p{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.estrella {
+    width: 20px;
+    height: 20px;
+    fill: black;
+    margin-right: 2px; /* Espaciado entre las estrellas, ajusta según necesites */
 }
 
 .bloque2_info-estrellas {
     display: flex;
+    gap: 15px;
 }
 
 .bloque2_info-estrellas svg{
-    margin: 0 12px 0 0;
+    margin: 10px 0px 10px 0;
 }
 
 .bloque2_info-texto p{
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 200;
     word-wrap: break-word;
     text-justify: inter-word;
     text-wrap: pretty;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .bloque2_info-usuario{
     display: flex;
+    align-items: center;
 }
 
 .bloque2_info-usuario img {
@@ -127,6 +136,9 @@
     .bloque2_info-opinion{
         width: 100%;
         margin: 20px 0;
+    }
+    .bloque2_info-texto p{
+        font-size: 25px;
     }
 }
 
