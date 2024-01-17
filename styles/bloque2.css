@@ -138,19 +138,24 @@
         margin: 20px 0;
     }
     .bloque2_info-texto p{
-        font-size: 25px;
+        font-size: 17px;
     }
 }
 
-/*
+
 @media screen and (max-width: 768px){
-    .bloque2 {
-      flex-direction: column;
-      flex-wrap: nowrap;
+    .bloque2_info-container h1{
+        font-size: 29px;
     }
-    .bloque2_info-opiniones-container{
-        flex-wrap: nowrap;
-        flex-direction: column;
+    .bloque2_info-texto p{
+        font-size: 17px;
     }
-  }
-  */
+}
+@media screen and (max-width: 500px){
+    .bloque2_info-container h1{
+        font-size: 29px;
+    }
+    .bloque2_info-texto p{
+        font-size: 15px;
+    }
+}
