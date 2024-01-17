@@ -147,7 +147,7 @@ html{
 
     .header-img {
         width: 50px;
-        transform: scale(1.5);
+        transform: scale(1);
         transform-origin: center;
     }
 
