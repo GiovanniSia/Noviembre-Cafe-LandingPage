@@ -108,7 +108,16 @@
     text-decoration: none;
 }
 
-.card3-contacto-iconos a:link, .card3-contacto-iconos a:visited, .card3-contacto-iconos a:hover, .card3-contacto-iconos a:active{
+.card3-contacto-iconos a img{
+    border-radius: 50%;
+}
+
+.card3-contacto-iconos a img:hover{
+    filter: brightness(70%);
+    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+}
+
+.card3-contacto-iconos a:link, .card3-contacto-iconos a:visited, .card3-contacto-iconos a:active{
     color: #242019;
     text-decoration: none;
 }
