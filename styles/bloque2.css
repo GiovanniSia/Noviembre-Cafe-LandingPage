@@ -1,3 +1,4 @@
+
 .bloque2 {
     color: #fff;
     display: flex;
@@ -61,7 +62,6 @@
 
 .bloque2_info-usuario p{
     font-size: 18px;
-    font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -83,7 +83,6 @@
 
 .bloque2_info-texto p{
     font-size: 17px;
-    font-weight: 200;
     word-wrap: break-word;
     text-justify: inter-word;
     text-wrap: pretty;
@@ -104,7 +103,9 @@
 }
 
 .bloque2_info-usuario h1{
+    font-family: 'Nunito Sans', sans-serif;
     text-align: start;
+
     margin: auto 0;
     font-size: 20px;
     font-weight: bold;
