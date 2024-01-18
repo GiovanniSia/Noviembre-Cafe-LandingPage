@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 85%;
-    height: 100%;
     margin: auto;
     max-width: 1380px;
 }
