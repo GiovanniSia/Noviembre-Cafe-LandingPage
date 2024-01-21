@@ -92,16 +92,19 @@
     color: #242019;
     margin: auto;
     margin-bottom: 0;
+    text-align: center;
     font-size: 60px;
     font-weight: bold;
+    width: 100%;
 }
 
 .card3-contacto-iconos{
     display: flex;
-    gap: 40%;
+    /*gap: 40%;*/
     margin:auto;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .card3-contacto-iconos a{
@@ -198,5 +201,22 @@
     .card3_mapa-container h1{
         margin:auto;
         margin-bottom: 0;
+        font-size: 50px;
+        width: 50%;
     }
+
+    .card3-contacto-iconos{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .card3_mapa-container h1{
+        width: 100%;
+    }
+
+    .card3-contacto-iconos{
+        width: 100%;
+    }
+
 }
