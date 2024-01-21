@@ -17,6 +17,17 @@ body {
   flex-direction: column;
 }
 
+body::-webkit-scrollbar {
+    width:12px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #38394D;
+    border-radius: 5px;
+}
+
 html {
   scroll-behavior: smooth;
 }
