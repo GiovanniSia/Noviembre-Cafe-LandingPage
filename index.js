@@ -36,5 +36,5 @@ contactoItems.forEach((i) => observerContactoAnimation.observe(i));
 elementosPortada.forEach((i) => observerPortadaAnimation.observe(i));
 
 console.log(
-  "This site was designed by 💩https://github.com/leonelSubelza💩 and 🤓https://github.com/GiovanniSia🤓"
+  "This site was developed by 💩https://github.com/leonelSubelza💩 and 🤓https://github.com/GiovanniSia🤓"
 );
