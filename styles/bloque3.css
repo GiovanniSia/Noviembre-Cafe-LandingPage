@@ -74,7 +74,7 @@
 .card2_menu-text {
   height: 20%;
   margin: auto;
-  width: 60%;
+  width: auto;
   border-radius: 20px;
   display: flex;
 }
@@ -88,7 +88,8 @@
   border-radius: 20px;
   padding: 5px 10px;
   display: flex;
-  border:2px solid rgb(181, 181, 181);
+  /* border:2px solid rgb(181, 181, 181); */
+  border:2px solid #000;
   /* background-color: rgb(232, 232, 232); */
   
 }
