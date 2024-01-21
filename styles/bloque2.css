@@ -13,6 +13,10 @@
   max-width: 1380px;
 }
 
+.bloque2-icon-animation{
+    opacity: 0;
+}
+
 .bloque2_img-container {
   width: 40%;
   height: 100%;
