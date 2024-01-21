@@ -1,147 +1,149 @@
-.menu_cards1{
-    background-color: #fff;
-    width: 100%;
-    height: auto;
+.menu_cards1 {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
 }
 
-.menu_cards2{
-    width: 100%;
-    height: auto;
-    background-color: #fffbf5;
+.menu_cards2 {
+  width: 100%;
+  height: auto;
+  background-color: #fffbf5;
 }
 
 .menu_cards_container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin:auto;
-    height: auto;
-    background-color: #fffbf5;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  height: auto;
+  background-color: #fffbf5;
 }
 
-.menu_cards_container1{
-    background-color: #fff;
+.menu_cards_container1 {
+  background-color: #fff;
 }
 
-.menu_cards_container2{
-    background-color: #fffbf5;
+.menu_cards_container2 {
+  background-color: #fffbf5;
 }
 
-.menu_cards-card{
-    width: 50%;
-    margin:auto;
-    height: 100vh;
-    display: flex;
+.menu_cards-card {
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
 }
 
-.menu_cards-card img{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    object-fit: cover;
+.menu_cards-card img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .card2 {
-    display: flex;
+  display: flex;
 }
 
-.card3{
-    background-color: #fffbf5;
+.card3 {
+  background-color: #fffbf5;
 }
 
 .card2_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:auto;
-    width: 50%;
-    height: 80%;
-    /*gap: 5%;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  height: 80%;
+  /*gap: 5%;*/
 }
 
-.card2_container img{
-    width: 100%;
-    height: 80%;
-    margin:auto;
+.card2_container img {
+  width: 100%;
+  height: 80%;
+  margin: auto;
 }
 
-.card2_menu-text{
-    height: 20%;
-    margin: auto;
-    width: 100%;
+.card2_menu-text {
+  height: 20%;
+  margin: auto;
+  width: 100%;
 }
 
-.card2_menu-text a{
-    text-align: center;
-    margin:auto;
-    font-size: 60px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 20px;
-    padding: 0 10px;
+.card2_menu-text a {
+  text-align: center;
+  margin: auto;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
 }
 
-.card2_menu-text a:link, .card2_menu-text a:visited, .card2_menu-text a:hover, .card2_menu-text a:active{
-    color: #242019;
-    text-decoration: none;
+.card2_menu-text a:link,
+.card2_menu-text a:visited,
+.card2_menu-text a:hover,
+.card2_menu-text a:active {
+  color: #242019;
+  text-decoration: none;
 }
 
-.card2_menu-text a:hover{
-    /* box-shadow: 0 0 20px rgba(67, 66, 66, 0.7); */
-    background-color: rgb(247 247 248);
+.card2_menu-text a:hover {
+  /* box-shadow: 0 0 20px rgba(67, 66, 66, 0.7); */
+  background-color: rgb(247 247 248);
 }
 
 .card3_mapa-container {
-    width: 80%;
-    height: 90%;
-    margin:auto;
-    display: flex;
-    flex-direction: column;
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.card3_mapa-container h1{
-    color: #242019;
-    margin: auto;
-    margin-bottom: 0;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    width: 100%;
+.card3_mapa-container h1 {
+  color: #242019;
+  margin: auto;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  width: 100%;
 }
 
-.card3-contacto-iconos{
-    display: flex;
-    /*gap: 40%;*/
-    margin:auto;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+.card3-contacto-iconos {
+  display: flex;
+  /*gap: 40%;*/
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
-.card3-contacto-iconos a{
-    text-decoration: none;
+.card3-contacto-iconos a {
+  text-decoration: none;
 }
 
-.card3-contacto-iconos a img{
-    border-radius: 50%;
+.card3-contacto-iconos a img {
+  border-radius: 50%;
 }
 
 .card3-contacto-iconos a img:hover {
-    filter: brightness(70%);
-    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+  filter: brightness(70%);
+  box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
 }
 
 .card3-contacto-iconos a img:focus {
-    filter: brightness(70%);
-    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+  filter: brightness(70%);
+  box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
 }
 
 /*Para que funcione el active en mobile se debe poner en este orden*/
-.card3-contacto-iconos a img:active{
-    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
-    filter: brightness(70%);
+.card3-contacto-iconos a img:active {
+  box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+  filter: brightness(70%);
 }
 
 
@@ -150,105 +152,110 @@
     box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
 } */
 
-.card3-contacto-iconos a:link, .card3-contacto-iconos a:visited, .card3-contacto-iconos a:active{
-    color: #242019;
-    text-decoration: none;
+.card3-contacto-iconos a:link,
+.card3-contacto-iconos a:visited,
+.card3-contacto-iconos a:active {
+  color: #242019;
+  text-decoration: none;
 }
 
 .card3-contacto-iconos img {
-    width: 50px;
-    height: 50px;
-    background-size: cover;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
 }
 
-#mapa{
-    width: 100%;
-    height: 60%;
-    margin:auto;
-    border:none;
+#mapa {
+  width: 100%;
+  height: 60%;
+  margin: auto;
+  border: none;
 }
 
 
 @keyframes acordeonAnimation {
-    from {
-        height: 20%;
-    }
-    to {
-        height: 100%;
-    }
+  from {
+    height: 20%;
+  }
+
+  to {
+    height: 100%;
+  }
 }
 
 
 .footer {
-    width: 100%;
-    height: 12%;
-    background-color: #000;
-    display: flex;
-    justify-content: flex-start;
-    padding: 11px;
-    align-items: center;
+  width: 100%;
+  height: 12%;
+  background-color: #000;
+  display: flex;
+  justify-content: flex-start;
+  padding: 11px;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
-    .menu_cards_container{
-        flex-direction: column;
-        width: 100%;
-    }   
+  .menu_cards_container {
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .menu_cards-card{
-        width: 100%;
-        height: auto;
-    }
+  .menu_cards-card {
+    width: 100%;
+    height: auto;
+  }
 
-    .card2_container {
-        width: 100%;
-        height: 100vh;
-    
-        margin:auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .card2_container img{
-        height: 80%;
-        /* object-fit: fill; */
-        order: 2;
-    }
-    .card2_menu-text{
-        margin:auto;
-        height: 20%;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
+  .card2_container {
+    width: 100%;
+    height: 100vh;
 
-    .card2_menu-text a{
-        text-align: center;
-    }
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .card3_mapa-container{
-        width: 90%;
-        height: 100dvh;
-    }
+  .card2_container img {
+    height: 80%;
+    /* object-fit: fill; */
+    order: 2;
+  }
 
-    .card3_mapa-container h1{
-        margin:auto;
-        margin-bottom: 0;
-        font-size: 50px;
-        width: 50%;
-    }
+  .card2_menu-text {
+    margin: auto;
+    height: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
 
-    .card3-contacto-iconos{
-        width: 50%;
-    }
+  .card2_menu-text a {
+    text-align: center;
+  }
+
+  .card3_mapa-container {
+    width: 90%;
+    height: 100dvh;
+  }
+
+  .card3_mapa-container h1 {
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 50px;
+    width: 50%;
+  }
+
+  .card3-contacto-iconos {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 610px) {
-    .card3_mapa-container h1{
-        width: 100%;
-    }
+  .card3_mapa-container h1 {
+    width: 100%;
+  }
 
-    .card3-contacto-iconos{
-        width: 100%;
-    }
+  .card3-contacto-iconos {
+    width: 100%;
+  }
 
 }
