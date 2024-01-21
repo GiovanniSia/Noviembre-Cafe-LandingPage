@@ -72,8 +72,9 @@ html{
     text-decoration: none;
     color: #ffffff;
     pointer-events: all;
-    font-size: 28px;
+    font-size: 25px;
     margin-right: 5%;
+    font-weight: bold;
 }
 
 .banner {
@@ -87,21 +88,26 @@ html{
 }
 
 .banner h1 {
-    font-size: 6rem;
+    /* font-size: 6rem; */
+    font-size: 129px;
     margin: 0;
-    font-weight: 300;
+    letter-spacing: -0.04em;
+    font-weight: 500;
 }
 
 .banner h2 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 33px;
+    font-weight: 500;
 }
 
 .banner img {
     margin-top: 70px;
-    width: 10rem;
+    /* width: 10rem; */
+    width: 22%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
     .banner h1 {
         font-size: 5rem;
     }
@@ -156,7 +162,7 @@ html{
     }
 
     .navegacion a {
-        font-size: 25px;
+        font-size: 20px;
         margin-right: 5%;
     }
 
@@ -185,8 +191,12 @@ html{
         transform-origin: center;
     }
 
+    .navegacion{
+        overflow: visible;
+    }
+
     .navegacion a {
-        font-size: 20px;
+        font-size: 15px;
         margin-right: 5%;
     }
 
