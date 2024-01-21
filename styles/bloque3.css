@@ -74,31 +74,50 @@
 .card2_menu-text {
   height: 20%;
   margin: auto;
-  width: 100%;
+  width: auto;
+  border-radius: 20px;
+  display: flex;
 }
 
 .card2_menu-text a {
   text-align: center;
   margin: auto;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 20px;
+  padding: 5px 10px;
+  display: flex;
+  border:2px solid #000;
+  
+}
+
+.card2_menu-text img{
+  width: 35px;
+  height: 35px;
+  margin:auto;
+}
+
+.card2_menu-text a:hover{
+  color:white;
+  box-shadow: 0 0 10px rgba(247,247,248,1);
+  background-color: black;
 }
 
 .card2_menu-text a:link,
-.card2_menu-text a:visited,
-.card2_menu-text a:hover,
-.card2_menu-text a:active {
-  color: #242019;
+.card2_menu-text a:visited
+ {
+  color: #000;
   text-decoration: none;
 }
-
-/*
-.card2_menu-text a:hover {
-  background-color: rgb(247 247 248);
+.card2_menu-text a:hover,
+.card2_menu-text a:active{
+  color: #fff;
 }
-*/
+
+.card2_menu-text a:hover > img{
+  filter: invert(100%);
+}
 
 .card3_mapa-container {
   width: 80%;
