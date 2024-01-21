@@ -57,14 +57,20 @@
     justify-content: center;
     margin:auto;
     width: 50%;
-    height: 60%;
-    gap: 5%;
+    height: 80%;
+    /*gap: 5%;*/
 }
 
 .card2_container img{
     width: 100%;
-    height: 100%;
+    height: 80%;
     margin:auto;
+}
+
+.card2_menu-text{
+    height: 20%;
+    margin: auto;
+    width: 100%;
 }
 
 .card2_menu-text a{
@@ -73,11 +79,18 @@
     font-size: 60px;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 20px;
+    padding: 0 10px;
 }
 
 .card2_menu-text a:link, .card2_menu-text a:visited, .card2_menu-text a:hover, .card2_menu-text a:active{
     color: #242019;
     text-decoration: none;
+}
+
+.card2_menu-text a:hover{
+    /* box-shadow: 0 0 20px rgba(67, 66, 66, 0.7); */
+    background-color: rgb(247 247 248);
 }
 
 .card3_mapa-container {
@@ -115,10 +128,27 @@
     border-radius: 50%;
 }
 
-.card3-contacto-iconos a img:hover{
+.card3-contacto-iconos a img:hover {
     filter: brightness(70%);
     box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
 }
+
+.card3-contacto-iconos a img:focus {
+    filter: brightness(70%);
+    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+}
+
+/*Para que funcione el active en mobile se debe poner en este orden*/
+.card3-contacto-iconos a img:active{
+    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+    filter: brightness(70%);
+}
+
+
+/* .card3-contacto-iconos a img:hover,.card3-contacto-iconos a img:active{
+    filter: brightness(70%);
+    box-shadow: 0 0 20px rgba(67, 66, 66, 0.7);
+} */
 
 .card3-contacto-iconos a:link, .card3-contacto-iconos a:visited, .card3-contacto-iconos a:active{
     color: #242019;
@@ -172,18 +202,20 @@
 
     .card2_container {
         width: 100%;
-        height: 60%;
+        height: 100vh;
     
         margin:auto;
         display: flex;
         flex-direction: column;
     }
     .card2_container img{
-        height: 100vh;
+        height: 80%;
+        /* object-fit: fill; */
         order: 2;
     }
     .card2_menu-text{
         margin:auto;
+        height: 20%;
         display: flex;
         text-align: center;
         justify-content: center;
