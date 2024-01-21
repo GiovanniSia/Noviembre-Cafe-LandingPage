@@ -1,3 +1,7 @@
+.bloque3-icon-animation{
+    opacity: 0;
+}
+
 .menu_cards1 {
   background-color: #fff;
   width: 100%;
@@ -90,10 +94,11 @@
   text-decoration: none;
 }
 
+/*
 .card2_menu-text a:hover {
-  /* box-shadow: 0 0 20px rgba(67, 66, 66, 0.7); */
   background-color: rgb(247 247 248);
 }
+*/
 
 .card3_mapa-container {
   width: 80%;
@@ -115,11 +120,11 @@
 
 .card3-contacto-iconos {
   display: flex;
-  /*gap: 40%;*/
+  gap: 40%;
   margin: auto;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 50%;
 }
 
 .card3-contacto-iconos a {
@@ -256,6 +261,7 @@
 
   .card3-contacto-iconos {
     width: 100%;
+    gap:0;
   }
 
 }

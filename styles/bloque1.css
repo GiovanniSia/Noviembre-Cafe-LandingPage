@@ -233,10 +233,11 @@ html {
 }
 
 .acordeon-izq-der {
-  animation: acordeon-vertical 0.5s steps(20, end) forwards;
+  animation: acordeon-horizontal 0.5s steps(20, end) forwards;
+  opacity: 1 !important;
 }
 
-@keyframes acordeon-vertical {
+@keyframes acordeon-horizontal {
   from {
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
   }
@@ -253,10 +254,11 @@ html {
   font-size: 24px;
   position: relative;
   overflow: hidden;
-  animation: acordeon-horizontal 0.5s steps(20, end) forwards;
+  opacity: 1 !important;
+  animation: acordeon-vertical 0.5s steps(20, end) forwards;
 }
 
-@keyframes acordeon-horizontal {
+@keyframes acordeon-vertical {
   from {
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
   }
