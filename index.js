@@ -54,3 +54,5 @@ bloque2.forEach(i => observerAcordeonIzDerAnimation.observe(i));
 bloque3.forEach(i => observerAcordeonAbArAnimation.observe(i));
 contactoItems.forEach(i => observerContactoAnimation.observe(i));
 elementosPortada.forEach(i => observerPortadaAnimation.observe(i));
+
+console.log('This site was disigned by 💩https://github.com/leonelSubelza💩 and 🤓https://github.com/GiovanniSia🤓')
